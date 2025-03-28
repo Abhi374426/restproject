@@ -17,6 +17,7 @@ public class StudentServiceImpl implements  StudentService{
 
     @Override
     public Student addStudentDetails(Student std) {
+         int a=10;
         return  studentRepo.save(std) ;
     }
 
